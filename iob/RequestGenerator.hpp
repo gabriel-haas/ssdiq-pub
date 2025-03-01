@@ -436,7 +436,8 @@ public:
                   prepareRequest(reqCpy);
 
                   // if request addr is dividable by page size, the submit a trim command first
-                  if (patternGen.pattern == iob::PatternGen::Pattern::ZNS && reqCpy.addr % (patternGen.options.znsPagesPerZone * reqCpy.len) == 0) {
+                  // TODO
+                  if (false && (patternGen.pattern == iob::PatternGen::Pattern::ZNS && reqCpy.addr % (patternGen.options.znsPagesPerZone * reqCpy.len) == 0)) {
                      int fd = IoInterface::instance().getDeviceInfo().devices[0].fd;
                      uint64_t range[2];
                      range[0] = reqCpy.addr;
