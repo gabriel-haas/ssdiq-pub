@@ -1,0 +1,10 @@
+model,devicecol,comment,capacityGB,PCIeGen,Sequential,SeqReadMBs,SeqWriteMBs,RndReadIOPS,RndWriteIOPS,DWPD,ReadLatencyUs,WriteLatencyUs
+SK Hynix PE8110,h,no OCP,960,4,"Up to, 128KB, QD128",6500,1700,900000,70000,1,75,?
+Samsung PM9A3,s,,960,4,"128KB, MB/s",6500,1500,580000,70000,1,?,?
+Solidigm D7-P5520,i,,1920,4,Up to,5300,1900,700000,114000,1,75,15
+Micron 7450 PRO,m,,960,4,128 KB,6800,1400,530000,85000,1,80,15
+Micron 7450 MAX,mw,ordered,800,4,128KB,6800,1400,530000,145000,3,80,15
+Kioxia CM7-R,k,,3840,5,"Up to, 128 KB",14000,6750,2700000,310000,1,?,?
+i4i,i4i,             ,3750,3?,,2800,2155,400000,220000,?,?,?
+Samsung pm1733i,sp, ,3840,4,             ,7000,3800,1500000,135000,1,?,?
+WD DC ??,w, ,960,3.1,            ,3330,1190,434000,49000,0.8,78,?
